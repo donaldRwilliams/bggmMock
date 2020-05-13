@@ -138,8 +138,8 @@ Y <- ptsd
 # continuous
 
 # fit model
-fit <- estimate(Y, 
-                type = "continuous", 
+fit <- estimate(Y,
+                type = "continuous",
                 iter = 10)
 
 }

@@ -2,9 +2,10 @@
 % Please edit documentation in R/print_BGGM.R
 \name{print.BGGM}
 \alias{print.BGGM}
+\alias{print.bggmMock}
 \title{Print method for \code{BGGM} objects}
 \usage{
-\method{print}{BGGM}(x, ...)
+\method{print}{bggmMock}(x, ...)
 }
 \arguments{
 \item{x}{An object of class \code{BGGM}}

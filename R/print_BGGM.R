@@ -5,7 +5,7 @@
 #' @param ... currently ignored
 #' @export
 
-print.BGGM <- function(x, ...) {
+print.bggmMock <- function(x, ...) {
   # print estimate methods
 
   if(is(x, "estimate")) {

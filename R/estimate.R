@@ -129,10 +129,10 @@
 #' # continuous
 #'
 #' # fit model
-#' fit <- estimate(Y, 
-#'                 type = "continuous", 
+#' fit <- estimate(Y,
+#'                 type = "continuous",
 #'                 iter = 10)
-#' 
+#'
 #' }
 #' @export
 estimate  <- function(Y,
@@ -476,7 +476,7 @@ estimate  <- function(Y,
 
   returned_object <- results
 
-  class(returned_object) <- c("BGGM",
+  class(returned_object) <- c("bggmMock",
                               "estimate",
                               "default")
   return(returned_object)
