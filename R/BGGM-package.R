@@ -129,6 +129,6 @@
 #'
 #' @import Rcpp
 #' @importFrom Rcpp sourceCpp
-#' @useDynLib bggmMockMock, .registration = TRUE
+#' @useDynLib bggmMock, .registration = TRUE
 #'
 NULL
