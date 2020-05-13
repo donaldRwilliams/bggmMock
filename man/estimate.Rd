@@ -2,7 +2,7 @@
 % Please edit documentation in R/estimate.R
 \name{estimate}
 \alias{estimate}
-\title{GGM: Estimation}
+\title{GGM: Estimation test}
 \usage{
 estimate(
   Y,
