@@ -1,6 +1,6 @@
 Package: bggmMock
 Type: Package
-Title: Bayesian Gaussian Graphical Models
+Title: mock
 Version: 2.0.0
 Date: 2020-05-07
 Authors@R: c(person("Donald", "Williams", email = "drwwilliams@ucdavis.edu", role = c("aut", "cre")),
