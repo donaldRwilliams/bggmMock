@@ -59,7 +59,7 @@ The returned object of class \code{estimate} contains a lot of information that
 }
 \description{
 Estimate the conditional (in)dependence with either an analytic solution or efficiently
-sampling from the posterior distribution. These methods were introduced in \insertCite{Williams2019;textual}{BGGM}.
+sampling from the posterior distribution. These methods were introduced in \insertCite{Williams2019;textual}{bggmMock}.
 The graph is selected with \code{\link{select.estimate}} and then plotted with \code{\link{plot.select}}.
 }
 \details{

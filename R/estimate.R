@@ -1,7 +1,7 @@
 #' @title GGM: Estimation test
 #'
 #' @description Estimate the conditional (in)dependence with either an analytic solution or efficiently
-#' sampling from the posterior distribution. These methods were introduced in \insertCite{Williams2019;textual}{BGGM}.
+#' sampling from the posterior distribution. These methods were introduced in \insertCite{Williams2019;textual}{bggmMock}.
 #' The graph is selected with \code{\link{select.estimate}} and then plotted with \code{\link{plot.select}}.
 #'
 #' @name estimate
@@ -493,15 +493,7 @@ estimate  <- function(Y,
 #'
 #' @param cred credible interval width
 #' @param ... currently ignored
-
-
-#' @seealso \code{\link{select.estimate}}
-#' @return a list containing the summarized posterior distributions
-#' # data
-#' Y <- BGGM::bfi[, 1:5]
-#' # analytic approach (sample by setting analytic = FALSE)
-#' fit <- estimate(Y, analytic = TRUE)
-#' summary(fit)
+#'
 #' @export
 summary.estimate <- function(object,
                              col_names = TRUE,
