@@ -1,4 +1,4 @@
-#' @name print.BGGM
+#' @name print.bggmMock
 #' @title  Print method for \code{BGGM} objects
 #'
 #' @param x An object of class \code{BGGM}
