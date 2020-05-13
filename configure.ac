@@ -4,13 +4,13 @@
 ##  the RcppArmadillo package. Licensed under GPL-2 or later
 ##  This file is a subset of the configure.ac used by
 ##  RcppArmadillo, adapted to the mfbvar package by
-##  Sebastian Ankargren
+##  Sebastian Ankargren, and in turn adapted for bggmMock by donald williams
 
 ## require at least autoconf 2.61
 AC_PREREQ(2.61)
 
 ## Process this file with autoconf to produce a configure script.
-AC_INIT(BGGM, m4_esyscmd_s([awk -e '/^Version:/ {print $2}' DESCRIPTION]))
+AC_INIT(bggmMock, m4_esyscmd_s([awk -e '/^Version:/ {print $2}' DESCRIPTION]))
 
 ## Set R_HOME, respecting an environment variable if one is set
 : ${R_HOME=$(R RHOME)}
