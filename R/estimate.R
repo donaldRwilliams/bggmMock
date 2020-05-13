@@ -37,7 +37,7 @@
 #'
 #'
 #' @return The returned object of class \code{estimate} contains a lot of information that
-#'         is used for printing and plotting the results. For users of \strong{BGGM}, the following
+#'         is used for printing and plotting the results. For users of \strong{bggmMock}, the following
 #'         are the useful objects:
 #'
 #' \itemize{
@@ -53,7 +53,7 @@
 #'
 #' The default is to draw samples from the posterior distribution (\code{analytic = FALSE}). The samples are
 #' required for computing edge differences (see \code{\link{ggm_compare_estimate}}), Bayesian R2 introduced in
-#' \insertCite{gelman_r2_2019;textual}{BGGM}, etc. If the goal is to *only* determine
+#' \insertCite{gelman_r2_2019;textual}{bggmMock}, etc. If the goal is to *only* determine
 #' the non-zero effects, this can be accomplished by setting \code{analytic = TRUE}. This is particularly useful
 #' when a fast solution is needed (see the examples in \code{\link{ggm_compare_ppc}})
 #'
@@ -103,7 +103,7 @@
 #'
 #' \strong{Posterior Uncertainty}:
 #'
-#' A key feature of \bold{BGGM} is that there is a posterior distribution for each partial correlation.
+#' A key feature of \bold{bggmMock} is that there is a posterior distribution for each partial correlation.
 #' This readily allows for visiualizing uncertainty in the estimates. This feature works
 #' with all data types and is accomplished by plotting the summary of the \code{estimate} object
 #' (i.e., \code{plot(summary(fit))}). Several examples are provided below.
@@ -112,7 +112,7 @@
 #'
 #' \strong{Interpretation of Conditional (In)dependence Models for Latent Data}:
 #'
-#' See \code{\link{BGGM-package}} for details about interpreting GGMs based on latent data
+#' See \code{\link{bggmMock-package}} for details about interpreting GGMs based on latent data
 #' (i.e, all data types besides \code{"continuous"})
 #'
 #'
